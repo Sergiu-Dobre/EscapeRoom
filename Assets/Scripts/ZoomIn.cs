@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ZoomIn : MonoBehaviour
 {
-    [SerializeField] private int zoom = 20;
+    [SerializeField] private int zoom = 15;
     public int normal = 60;
     public float smooth = 5;
     public bool isZoomed = false;
