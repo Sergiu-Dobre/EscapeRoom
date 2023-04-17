@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - puzzle
+  - pipe
+  - DoorTrigger
   layers:
   - Default
   - TransparentFX
