@@ -17,12 +17,12 @@ public class ValveConroller : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {   
-        rescaleRandom= new Vector3 (1f, Random.Range(1f,0.2f), 1f);
-        rescaleRandom2 = new Vector3(1f, Random.Range(1f, 0.2f), 1f);
-        rescaleRandom3 = new Vector3(1f, Random.Range(1f, 0.2f), 1f);
+        //rescaleRandom= new Vector3 (1f, Random.Range(1f,0.2f), 1f);
+        //rescaleRandom2 = new Vector3(1f, Random.Range(1f, 0.2f), 1f);
+        //rescaleRandom3 = new Vector3(1f, Random.Range(1f, 0.2f), 1f);
        
         allowInteraction = false;
-        rescale = new Vector3(1f, 2f, 1f);
+        rescale = new Vector3(1f, 1.3f, 1f);
     }
 
     // Update is called once per frame
