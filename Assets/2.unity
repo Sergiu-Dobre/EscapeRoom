@@ -551,7 +551,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &831278037
 GameObject:
@@ -716,7 +716,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &845007425
 MonoBehaviour:
@@ -1255,7 +1255,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1161437618 stripped
 Transform:
@@ -1722,9 +1722,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1816149427
+=======
+--- !u!1 &1835143177
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1732,6 +1736,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1816149428}
   - component: {fileID: 1816149431}
   - component: {fileID: 1816149430}
@@ -1739,17 +1744,27 @@ GameObject:
   - component: {fileID: 1816149432}
   m_Layer: 0
   m_Name: wheel2
+=======
+  - component: {fileID: 1835143178}
+  m_Layer: 0
+  m_Name: PickUpZone
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1816149428
+=======
+--- !u!4 &1835143178
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1816149427}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 17.564535, y: -4.462743, z: -0.11113548}
@@ -1897,10 +1912,23 @@ CapsuleCollider:
   m_Direction: 1
   m_Center: {x: -0.06270915, y: 1.0785868, z: -0.018416405}
 --- !u!1001 &2082102619
+=======
+  m_GameObject: {fileID: 1835143177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.495}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1441585372168766765}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2119599574
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 873755780}
     m_Modifications:
     - target: {fileID: 3723615072802569064, guid: 4d9283c0c3695bc449c5aff70acce419,
@@ -1939,10 +1967,36 @@ PrefabInstance:
       value: -0.010232925
       objectReference: {fileID: 0}
     - target: {fileID: 3723615072802569064, guid: 4d9283c0c3695bc449c5aff70acce419,
+=======
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.2894449
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.00000023841858
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30.771349
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3723615072802569064, guid: 4d9283c0c3695bc449c5aff70acce419,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -1959,20 +2013,47 @@ PrefabInstance:
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3723615072802569064, guid: 4d9283c0c3695bc449c5aff70acce419,
+=======
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3723615072802569064, guid: 4d9283c0c3695bc449c5aff70acce419,
+=======
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3723615072802569064, guid: 4d9283c0c3695bc449c5aff70acce419,
+=======
+    - target: {fileID: -8679921383154817045, guid: 34746ef78ef767c4caa32488ef543d68,
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 3723615072802569069, guid: 4d9283c0c3695bc449c5aff70acce419,
         type: 3}
       propertyPath: m_Name
@@ -1986,6 +2067,45 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 982251177}
   m_PrefabAsset: {fileID: 0}
+=======
+    - target: {fileID: -2577548232221058511, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 36.8138
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 40.03786
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 43.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 34746ef78ef767c4caa32488ef543d68,
+        type: 3}
+      propertyPath: m_Name
+      value: Standfbx
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34746ef78ef767c4caa32488ef543d68, type: 3}
+>>>>>>> parent of 9abc23c (Revert "Merge pull request #9 from Sergiu-Dobre/Charlotta")
 --- !u!1001 &1257461853421217362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2065,7 +2185,7 @@ PrefabInstance:
     - target: {fileID: 1441585373310023224, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1441585373310023224, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
         type: 3}
@@ -2132,13 +2252,71 @@ PrefabInstance:
       propertyPath: near clip plane
       value: 0.01
       objectReference: {fileID: 0}
+    - target: {fileID: 1441585373717765394, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1441585373717765395, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
         type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1441585373310023231, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57, type: 3}
+--- !u!4 &1441585372168766765 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1441585373310023224, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1441585372168766764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1441585372168766766 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1441585373475229985, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1441585372168766764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1441585372168766767 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 1441585373310023225, guid: 4b55faaa8fdc1d349a6d2a7fcc0c6e57,
+    type: 3}
+  m_PrefabInstance: {fileID: 1441585372168766764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1441585372168766768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374458553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6f57b7fc6fe7742bf8d17c6a5debb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickupMask:
+    serializedVersion: 2
+    m_Bits: 8
+  PlayerCam: {fileID: 621921834}
+  PickupTarget: {fileID: 1835143178}
+  PickupRange: 5
+--- !u!114 &1441585372168766769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374458553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fb901e0ca8ab9848a3f7057821dcf13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCamera: {fileID: 1441585372168766766}
+  PlayerBody: {fileID: 1441585372168766767}
+  Speed: 5
+  Sensitivity: 3
 --- !u!1001 &1738046765781328462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2154,7 +2332,7 @@ PrefabInstance:
     - target: {fileID: 2275568156043268635, guid: 3d5235b7a5f483947873bcfb11e6b3c7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2275568156043268635, guid: 3d5235b7a5f483947873bcfb11e6b3c7,
         type: 3}
@@ -2366,7 +2544,7 @@ PrefabInstance:
     - target: {fileID: 5962118301372712053, guid: cad11e73f5c8b504cb71c5369f3a9b2a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5962118301372712053, guid: cad11e73f5c8b504cb71c5369f3a9b2a,
         type: 3}
