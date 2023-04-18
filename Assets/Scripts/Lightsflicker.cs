@@ -36,7 +36,7 @@ public class Lightsflicker : MonoBehaviour
         {
             lightOB.enabled = !lightOB.enabled;
             timer = Random.Range(minTime, maxTime);
-            lightSound.Play();
+            //lightSound.Play();
         }
 
 
