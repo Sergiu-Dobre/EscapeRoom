@@ -22,13 +22,13 @@ public class ValveConroller : MonoBehaviour
         //rescaleRandom3 = new Vector3(1f, Random.Range(1f, 0.2f), 1f);
        
         allowInteraction = false;
-        rescale = new Vector3(1f, 1.3f, 1f);
+        rescale = new Vector3(1f, 0.65f, 1f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKey(KeyCode.E))
         {
             allowInteraction = true;
         }
@@ -36,8 +36,9 @@ public class ValveConroller : MonoBehaviour
         {
             allowInteraction = false;
         }
+
     }
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerStay (Collider other)
     {
         if (allowInteraction)
         {
@@ -51,8 +52,9 @@ public class ValveConroller : MonoBehaviour
                     pipe2.transform.localScale = rescaleRandom2;
                     pipe3.transform.localScale = rescaleRandom3;
                     pipe4.transform.localScale = rescale;
-                
+
             }
+            
         }
        
     }
