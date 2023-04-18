@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1273820468805046862
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1243181649668885807, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_Name
+      value: HYdrogen tank Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.437
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.347
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.50008726
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.49991274
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876729679289522069, guid: c9ec60d03eefae94f805531301bdf19c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c9ec60d03eefae94f805531301bdf19c, type: 3}
+--- !u!1 &66762243185008481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1243181649668885807, guid: c9ec60d03eefae94f805531301bdf19c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1273820468805046862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1469611034
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66762243185008481}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0164, y: 0.019781055, z: 0.026872283}
+  m_Center: {x: 0, y: -0.0016905278, z: 0.0016423411}
