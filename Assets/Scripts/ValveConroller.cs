@@ -44,7 +44,7 @@ public class ValveConroller : MonoBehaviour
         if (allowInteraction)
         {
             if (other.tag == "Player")
-            {
+            {   
                 audioSource.Play();
                 // transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
                 Debug.Log("colides wiht the valve");

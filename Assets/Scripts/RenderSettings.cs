@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEditor;
 
 
 public class RenderSettings : MonoBehaviour
@@ -22,6 +23,7 @@ public class RenderSettings : MonoBehaviour
         if (Input.GetKey(KeyCode.E))
         {
             allowInteraction = true;
+            RenderSettings.Destroy(this);
         }
         else
         {
@@ -36,7 +38,7 @@ public class RenderSettings : MonoBehaviour
             if (other.tag == "Player")
             {
                RenderSettings.Destroy(this);
-                //RenderSettings.fog = false;
+               // RenderSettings.fog = false;
                 Debug.Log("Light settings change");
 
              
