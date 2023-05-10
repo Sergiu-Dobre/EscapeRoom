@@ -18,7 +18,7 @@ public class PickUpContoller : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (CurrentObject)
             {
@@ -45,5 +45,6 @@ public class PickUpContoller : MonoBehaviour
 
             CurrentObject.velocity = DirectionToPoint * 12f * DistanceToPoint;
         }
+        
     }
 }
