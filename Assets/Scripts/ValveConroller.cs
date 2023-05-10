@@ -11,8 +11,9 @@ public class ValveConroller : MonoBehaviour
     [SerializeField]private bool allowInteraction;
     [SerializeField]private Vector3 rescaleRandom;
     [SerializeField] private Vector3 rescaleRandom2;
-    [SerializeField] private Vector3 rescaleRandom3; 
+    [SerializeField] private Vector3 rescaleRandom3;
     [SerializeField] private Vector3 rescale;
+    [SerializeField] private AudioSource audioSource;
 
     // Start is called before the first frame update
     void Awake()
@@ -43,8 +44,8 @@ public class ValveConroller : MonoBehaviour
         if (allowInteraction)
         {
             if (other.tag == "Player")
-            {
-
+            {   
+                audioSource.Play();
                 // transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
                 Debug.Log("colides wiht the valve");
                 
