@@ -23,7 +23,7 @@ public class pipescript : MonoBehaviour
     {
         PossibleRots = correctRotation.Length;
         int rand = Random.Range(0, rotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
+        transform.eulerAngles = new Vector3(0, -90, rotations[rand]);
 
         if(PossibleRots > 1)
         {
