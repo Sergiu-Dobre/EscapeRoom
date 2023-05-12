@@ -7,8 +7,6 @@ TagManager:
   - puzzle
   - pipe
   - DoorTrigger
-  - DialogueChoice
-  - AI
   layers:
   - Default
   - TransparentFX
@@ -16,7 +14,7 @@ TagManager:
   - PickUpItems
   - Water
   - UI
-  - Highlight
+  - 
   - 
   - 
   - 
