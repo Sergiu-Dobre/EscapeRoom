@@ -10,6 +10,8 @@ public class DialPuzzleController : MonoBehaviour
     // Array of the correct order of the dials
     public int[] correctOrder;
 
+    public GameObject GameObject;
+
     // Update is called once per frame
     void Update()
     {
@@ -28,6 +30,7 @@ public class DialPuzzleController : MonoBehaviour
         if (isCorrectOrder)
         {
             Debug.Log("It's correct!");
+            GameObject.GetComponent<Animator>().enabled = true;
         }
     }
 }
