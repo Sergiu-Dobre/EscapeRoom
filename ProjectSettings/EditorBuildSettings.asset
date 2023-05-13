@@ -5,7 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/p1cutscenetest.unity
     guid: 473bc4d26dacbcc48a4318c3200b065d
   - enabled: 1
@@ -13,5 +20,8 @@ EditorBuildSettings:
     guid: d901ec3b7f1419c44b3d86d39588d19c
   - enabled: 1
     path: Assets/mainlvl.unity
+=======
+    path: Assets/Scenes/2.unity
+>>>>>>> e8833e106010f929be0a3b5932e1125b386a0a71
     guid: abbd2c19c79c729468370333d9f60f31
   m_configObjects: {}
