@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/p2cutscenetest.unity
     guid: 3f7613d87a5921244a9698becccaa0c8
   - enabled: 1
-    path: Assets/2.unity
+    path: Assets/Scenes/2.unity
     guid: abbd2c19c79c729468370333d9f60f31
   m_configObjects: {}
